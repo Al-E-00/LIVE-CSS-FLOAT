@@ -1,0 +1,32 @@
+.float {
+    width: 100px;
+    height: 100px;
+}
+
+.blue {
+    background-color: blue;
+  
+}
+
+.pink{
+    background-color: pink;
+  
+}
+
+.clearfix:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.wrapper{
+    border: 1px dotted red;
+}
+
+.wrapper .float:nth-child(1){
+    float: left;
+}
+
+.wrapper .float:nth-child(2){
+    float: right;
+}
